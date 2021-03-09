@@ -78,7 +78,4 @@
             </div>
         </form>
     </div>
-    <script>
-        setInterval(()=> total_original_price.innerHTML = parseInt(original_price.value * count.value))
-    </script>
 @endsection

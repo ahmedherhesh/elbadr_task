@@ -16,6 +16,10 @@ $(function(){
             subCategories.hide();
           }
         }
-      })
-  })
+      });
+  });
+  $('#count, #original_price').on('keyup', function(){
+      $('#total_original_price').text($('#count').val() * $('#original_price').val());
+  });
 })
+
